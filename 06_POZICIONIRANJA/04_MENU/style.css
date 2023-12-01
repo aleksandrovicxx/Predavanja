@@ -37,6 +37,14 @@
 .topbar ul li a:hover{
     background-color: chocolate;
 }
+/* ---------Padajuci meni:-------- */
+.dropdown{
+    display: none;
+}
+.topbar li:nth-child(4):hover .dropdown{
+    display: block;    
+}
+
 .ostatak{
     position: relative;
     top: 45px;
